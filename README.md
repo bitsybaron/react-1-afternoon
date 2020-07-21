@@ -1227,7 +1227,7 @@ export default class Palindrome extends Component {
     this.state = {
       userInput: '',
       palindrome: ''
-    };
+    }
   }
 
   handleChange(val) {
