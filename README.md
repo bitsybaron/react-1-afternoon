@@ -316,7 +316,7 @@ import Sum from '../Topics/Sum'
 export default class TopicBrowser extends Component {
   render() {
     return (
-
+      
     )
   }
 }
@@ -328,7 +328,7 @@ Now that they are imported into our `TopicBrowser` component we can render them 
 import React, { Component } from 'react';
 
 // Topics
-import EvenAndOdd from '../Topics/EvenAndOdd'
+import EvenAndOdd from '.components/Topics/EvenAndOdd'
 import FilterObject from '../Topics/FilterObject'
 import FilterString from '../Topics/FilterString'
 import Palindrome from '../Topics/Palindrome'
